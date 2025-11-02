@@ -3,7 +3,7 @@ document.getElementById("download-pdf").addEventListener("click", () => {
 
   const opt = {
     margin:       0.4,                     // margin in inches
-    filename:     'Harsh_Mangukiya_UI/UX &  Graphic Designer_Resume.pdf',
+    filename:     'Harsh_Mangukiya_UI_UX_Graphic_Designer_Resume.pdf',
     image:        { type: 'jpeg', quality: 1 }, 
     html2canvas:  { scale: 3, logging: true, scrollY: 0 }, // high resolution
     jsPDF:        { 
